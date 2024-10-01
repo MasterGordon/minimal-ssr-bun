@@ -1,4 +1,6 @@
-import { renderToReadableStream } from "react-dom/server";
+import ReactDOMServer from "react-dom/server";
+
+const { renderToString, renderToReadableStream } = ReactDOMServer;
 import { createElement } from "react";
 import Document from "./Document.tsx";
 
