@@ -1,4 +1,4 @@
-# blog
+# Minimal React SSR + Hydration Example
 
 To install dependencies:
 
